@@ -1,4 +1,4 @@
-package com.example.mvvpfoodjetpackcompose.models
+package com.example.mvvpfoodjetpackcompose
 
 import androidx.room.TypeConverter
 import kotlinx.android.parcel.TypeParceler

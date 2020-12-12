@@ -1,15 +1,17 @@
-package com.example.mvvpfoodjetpackcompose.models
+package com.example.mvvpfoodjetpackcompose.network.model
 
 import com.google.gson.annotations.SerializedName
 
 data class RecipeNetworkEntity(
 
     @SerializedName("pk")
-    val pk : String? = null,
+    val pk : Int? = null,
     @SerializedName("title")
     val title : String? = null,
     @SerializedName("publisher")
     val publisher : String? = null,
+    @SerializedName("featuredImage")
+    val featuredImage : String? = null,
     @SerializedName("rating")
     val rating : Int? = null,
     @SerializedName("sourceUrl")

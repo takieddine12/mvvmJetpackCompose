@@ -1,4 +1,4 @@
-package com.example.mvvpfoodjetpackcompose.models
+package com.example.mvvpfoodjetpackcompose.domain.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
